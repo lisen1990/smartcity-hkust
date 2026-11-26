@@ -1,0 +1,41 @@
+name: Import website source
+on:
+  push:
+    paths: [".github/workflows/import-source.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Restore verified source files
+        shell: python
+        run: |
+          from pathlib import Path, PurePosixPath
+          from zipfile import ZipFile
+          archive = Path("smartcity-hkust-source.zip")
+          with ZipFile(archive) as source:
+              assert source.testzip() is None
+              for entry in source.infolist():
+                  path = PurePosixPath(entry.filename)
+                  assert path.parts[0] == "smartcity-hkust" and ".." not in path.parts
+                  relative = Path(*path.parts[1:])
+                  if entry.is_dir() or relative.parts[0] == ".github":
+                      continue
+                  content = source.read(entry)
+                  relative.parent.mkdir(parents=True, exist_ok=True)
+                  relative.write_bytes(content)
+                  assert relative.read_bytes() == content
+          assert Path("src/pages/index.astro").exists()
+          assert Path("public/images/people/hongbo-zhu.png").exists()
+          archive.unlink()
+      - name: Commit imported website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "Import complete academic website source"
+          git push origin HEAD:main
