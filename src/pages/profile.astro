@@ -1,0 +1,52 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import LinkList from '../components/LinkList.astro';
+import profile from '../data/academic-profile.json';
+import { patentPublications } from '../lib/research';
+import { sitePath } from '../lib/site';
+
+const sections = [
+  { id: 'appointments', title: 'Academic appointments', entries: profile.appointments },
+  { id: 'education', title: 'Education', entries: profile.education },
+  { id: 'honors', title: 'Selected honors', entries: profile.honors },
+  { id: 'service', title: 'Academic service', entries: profile.service },
+];
+---
+<SiteLayout title="Academic profile" description="Academic appointments, education, honors, and service of Sen Li at HKUST.">
+  <header class="page-intro">
+    <a class="back-link" href={sitePath()}>← Sen Li</a>
+    <h1>Academic profile</h1>
+  </header>
+  <nav class="profile-toc" aria-label="Academic profile sections">
+    {sections.map(({ id, title }) => <a href={`#${id}`}>{title}</a>)}
+    {patentPublications.length > 0 && <a href="#patents">Patent applications</a>}
+  </nav>
+  {sections.map(({ id, title, entries }) => <section class="record-section" id={id}>
+    <h2>{title}</h2>
+    <ul class="record-list" role="list">
+      {entries.map((entry) => <li>
+        <div class="record-main">
+          <h3>{entry.title}</h3>
+          <p class="record-institution">{entry.institution}</p>
+          {'description' in entry && entry.description && <p>{entry.description}</p>}
+          <LinkList links={entry.links} />
+        </div>
+        <span class="record-period">{'period' in entry ? entry.period : 'year' in entry ? entry.year : ''}</span>
+      </li>)}
+    </ul>
+  </section>)}
+  {patentPublications.length > 0 && <section id="patents" class="record-section">
+    <h2>Patent applications</h2>
+    <ul class="record-list" role="list">
+      {patentPublications.map((patent) => <li id={patent.id}>
+        <div class="record-main">
+          <h3>{patent.title}</h3>
+          <p>{patent.authors}</p>
+          <p class="record-institution">{patent.venue} · {patent.details}</p>
+          <LinkList links={patent.links} />
+        </div>
+        <span class="record-period">{patent.year}</span>
+      </li>)}
+    </ul>
+  </section>}
+</SiteLayout>

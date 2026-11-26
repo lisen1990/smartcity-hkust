@@ -1,0 +1,46 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import LinkList from '../../components/LinkList.astro';
+import { sitePath, type Project } from '../../lib/site';
+import research from '../../data/research.json';
+export function getStaticPaths() {
+  const projects: Project[] = research.projects;
+  return projects.filter((project) => project.detail).map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+const { project } = Astro.props;
+const detail = project.detail!;
+---
+<SiteLayout title={detail.title ?? project.title} active="Research" description={project.summary} image={project.image}>
+  <div class="page-intro study-intro">
+    <a class="arrow-link" href={sitePath('research/')}>Research interests</a>
+    <h1>{detail.title ?? project.title}</h1>
+    <p class="lead">{project.summary}</p>
+  </div>
+  <article class="study">
+    <div class="study-text">{detail.intro.map((paragraph) => <p>{paragraph}</p>)}</div>
+    {detail.sections.map((section) => <section>
+      <h2>{section.title}</h2>
+      <div class="study-text">
+        {section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}
+        {section.items && <ul>{section.items.map((item) => <li>{item}</li>)}</ul>}
+        <LinkList links={section.links} />
+      </div>
+      {section.figures && <div class="study-figures">
+        {section.figures.map((figure) => (
+          <figure>
+            <a href={sitePath(figure.image)} aria-label={`View full-size figure: ${figure.alt}`}>
+              <img src={sitePath(figure.image)} alt={figure.alt} loading="lazy" decoding="async" />
+            </a>
+            {figure.caption && <figcaption>{figure.caption}</figcaption>}
+          </figure>
+        ))}
+      </div>}
+    </section>)}
+    {detail.funding && <p class="study-funding">{detail.funding}</p>}
+    <LinkList links={detail.links} />
+    <LinkList links={project.links} />
+  </article>
+</SiteLayout>

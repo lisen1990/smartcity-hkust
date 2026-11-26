@@ -1,0 +1,12 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { formatMonth } from '../lib/site';
+import opportunities from '../data/opportunities.json';
+---
+<SiteLayout title="Join Us" active="Join Us" description={opportunities.intro}>
+  <header class="page-intro"><h1>Join Us</h1></header>
+  <div class="prose">
+    <p>{opportunities.researchStatement}</p>
+    <p>Our <time datetime={opportunities.postedDate}>{formatMonth(opportunities.postedDate)}</time> recruitment notice advertised {opportunities.historicalPositions}. To confirm current availability and discuss research fit, email Dr. Sen Li at <a href={`mailto:${opportunities.email}`}>{opportunities.email}</a>. For formal PhD applications and fellowship information, see <a href={opportunities.admissions.url}>{opportunities.admissions.label}</a> and the <a href={opportunities.fellowship.url}>{opportunities.fellowship.label}</a>.</p>
+  </div>
+</SiteLayout>

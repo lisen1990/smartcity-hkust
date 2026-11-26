@@ -1,0 +1,238 @@
+{
+  "verifiedOn": "2026-11-26",
+  "sourceNote": "Selected from the curriculum vitae, author updates and public records. Academic appointment dates and current editorial roles reflect information supplied by Sen Li. Public links provide supporting institutional, publisher and professional-society records.",
+  "education": [
+    {
+      "title": "PhD in Electrical and Computer Engineering",
+      "institution": "The Ohio State University",
+      "year": 2017,
+      "period": "2012–2017",
+      "description": "Dissertation: Transactive Control for Large-Scale Cyber-Physical Systems.",
+      "links": [
+        {
+          "label": "HKUST profile",
+          "url": "https://researchportal.hkust.edu.hk/en/persons/sen-li/"
+        }
+      ]
+    },
+    {
+      "title": "B.S. in Electrical Engineering",
+      "institution": "Zhejiang University",
+      "year": 2012,
+      "period": "2008–2012",
+      "description": "Cho-Kochen Honors Degree.",
+      "links": [
+        {
+          "label": "AACC biography",
+          "url": "https://a2c2.org/contact/sen-li"
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "title": "Associate Professor",
+      "institution": "The Hong Kong University of Science and Technology",
+      "period": "1 July 2026–present",
+      "description": "Department of Civil and Environmental Engineering.",
+      "sourceNote": "Appointment date supplied by Sen Li.",
+      "links": [
+        {
+          "label": "HKUST profile",
+          "url": "https://researchportal.hkust.edu.hk/en/persons/sen-li/"
+        }
+      ]
+    },
+    {
+      "title": "Assistant Professor",
+      "institution": "The Hong Kong University of Science and Technology",
+      "period": "December 2019–June 2026",
+      "description": "Department of Civil and Environmental Engineering.",
+      "sourceNote": "Appointment dates supplied by Sen Li.",
+      "links": [
+        {
+          "label": "HKUST profile",
+          "url": "https://researchportal.hkust.edu.hk/en/persons/sen-li/"
+        }
+      ]
+    },
+    {
+      "title": "Postdoctoral Fellow",
+      "institution": "University of California, Berkeley",
+      "period": "January 2018–December 2019",
+      "description": "Department of Mechanical Engineering, working with Kameshwar Poolla and Pravin Varaiya.",
+      "links": [
+        {
+          "label": "Berkeley BCCI group",
+          "url": "https://bcci.me.berkeley.edu/people/"
+        }
+      ]
+    },
+    {
+      "title": "Visiting Scholar",
+      "institution": "Harvard University",
+      "period": "June–November 2016",
+      "description": "Research visit hosted by Na Li.",
+      "links": [
+        {
+          "label": "AACC biography",
+          "url": "https://a2c2.org/contact/sen-li"
+        }
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "code": "CIVL 3610",
+      "title": "Traffic and Transportation Engineering",
+      "institution": "HKUST",
+      "period": "Spring 2023 and 2025",
+      "description": "Transportation systems, traffic flow, highway geometry, and travel-demand modelling.",
+      "links": [
+        {
+          "label": "Course syllabus",
+          "url": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2024-2025/CIVL3610_Spring_24-25.pdf"
+        }
+      ]
+    },
+    {
+      "code": "CIVL 4640",
+      "title": "Introduction to Smart City Economics",
+      "institution": "HKUST",
+      "description": "Economic models of electricity and transport markets, including electric vehicles, renewable energy and on-demand mobility.",
+      "links": [
+        {
+          "label": "HKUST course page",
+          "url": "https://researchportal.hkust.edu.hk/en/courses/2025-26-spring-civl4640-introduction-to-smart-city-economics/"
+        }
+      ]
+    },
+    {
+      "code": "CIVL 4100K",
+      "title": "Multi-agent Decision-Making in Smart Cities",
+      "institution": "HKUST",
+      "period": "Spring 2021 and 2022",
+      "description": "Optimization and game theory for strategic interactions in transportation and power systems. The course is now catalogued as CIVL 4650.",
+      "links": [
+        {
+          "label": "Course syllabus",
+          "url": "https://seng.hkust.edu.hk/sites/default/files/IMCE/UG/Course%20Syllabus/Spring_2021-2022/CIVL4100K%20Spring%2021-22.pdf"
+        },
+        {
+          "label": "Course catalogue",
+          "url": "https://prog-crs.hkust.edu.hk/ugcourse/2025-26/CIVL"
+        }
+      ]
+    },
+    {
+      "code": "CIVL 5610",
+      "title": "Urban Transportation Networks Analysis",
+      "institution": "HKUST",
+      "description": "Graduate teaching on network flow assignment, user equilibrium, system-optimal routing and computational solution methods.",
+      "links": [
+        {
+          "label": "HKUST course page",
+          "url": "https://researchportal.hkust.edu.hk/en/courses/2026-27-fall-civl5610-urban-transportation-networks-analysis/"
+        }
+      ]
+    }
+  ],
+  "honors": [
+    {
+      "year": 2025,
+      "title": "IEEE Transactions on Industry Applications Third Prize Paper Award",
+      "institution": "IEEE Industry Applications Society",
+      "links": [
+        {
+          "label": "HKUST award record",
+          "url": "https://researchportal.hkust.edu.hk/en/prizes/2025-ieee-transactions-on-industry-applications-third-prize-paper/"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "O. Hugo Schuck Best Paper Award",
+      "institution": "American Automatic Control Council",
+      "description": "For Distributed Storage Investment in Power Networks, with Junjie Qin, Kameshwar Poolla and Pravin Varaiya.",
+      "links": [
+        {
+          "label": "AACC award recipients",
+          "url": "https://a2c2.org/paper-award/o-hugo-schuck-best-paper-award"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Best Student Paper Award",
+      "institution": "IEEE International Conference on Intelligent Transportation Systems",
+      "links": [
+        {
+          "label": "HKUST awards",
+          "url": "https://researchportal.hkust.edu.hk/en/persons/sen-li/"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "Best Student Paper Award Finalist",
+      "institution": "European Control Conference",
+      "links": [
+        {
+          "label": "AACC biography",
+          "url": "https://a2c2.org/contact/sen-li"
+        }
+      ]
+    }
+  ],
+  "service": [
+    {
+      "title": "Associate Editor",
+      "institution": "IEEE Transactions on Intelligent Transportation Systems",
+      "sourceNote": "Current appointment supplied by Sen Li.",
+      "links": [
+        {
+          "label": "Official journal",
+          "url": "https://ieee-itss.org/pub/t-its/"
+        }
+      ]
+    },
+    {
+      "title": "Young Editorial Board Member",
+      "institution": "Communications in Transportation Research",
+      "period": "Since 2025",
+      "links": [
+        {
+          "label": "Faculty biography",
+          "url": "https://www.smartcityhkust.com/"
+        }
+      ]
+    },
+    {
+      "title": "Editorial Board Member",
+      "institution": "Transportmetrica A: Transport Science",
+      "sourceNote": "Current editorial role supplied by Sen Li.",
+      "links": [
+        {
+          "label": "Official journal",
+          "url": "https://www.tandfonline.com/journals/ttra21"
+        }
+      ]
+    },
+    {
+      "title": "Board Member",
+      "institution": "Hong Kong Society for Transportation Studies",
+      "period": "Since 2022",
+      "description": "Also served as General Co-Chair of the 26th HKSTS International Conference, held in Hong Kong on 12–13 December 2022.",
+      "links": [
+        {
+          "label": "HKSTS committee",
+          "url": "https://hksts.org/en/about2/1/"
+        },
+        {
+          "label": "2022 conference report",
+          "url": "https://www.hksts.org/conf22m.pdf"
+        }
+      ]
+    }
+  ]
+}

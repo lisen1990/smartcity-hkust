@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2026-09",
+    "title": "NeurIPS accepts One Step is Enough",
+    "body": "Zijian Zhao and Sen Li study one-step policy optimization for assigning rides across a fleet.",
+    "links": [
+      {
+        "label": "Conference program",
+        "url": "https://neurips.cc/Downloads/2026"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2507.15351"
+      }
+    ]
+  },
+  {
+    "date": "2026-01",
+    "title": "Triple-BERT accepted at ICLR",
+    "body": "Zijian Zhao and Sen Li examine whether a single reinforcement learning agent can handle order dispatch on ride-sharing platforms.",
+    "links": [
+      {
+        "label": "Proceedings",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f9a2243223a8d325008b642ea7a2c254-Abstract-Conference.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/RS2002/Triple-BERT"
+      }
+    ]
+  },
+  {
+    "date": "2025-01",
+    "title": "Jing Gao joins The Hong Kong Polytechnic University",
+    "body": "Dr. Jing Gao, a graduate of the group, started a position as Research Assistant Professor.",
+    "links": [
+      {
+        "label": "PolyU profile",
+        "url": "https://research.polyu.edu.hk/en/persons/jing-gao/"
+      }
+    ]
+  },
+  {
+    "date": "2024-07",
+    "title": "Yitong Shang promoted to Research Assistant Professor"
+  },
+  {
+    "date": "2024-03",
+    "title": "Paper on regulating for-hire autonomous vehicles accepted",
+    "body": "“Regulating For-Hire Autonomous Vehicles for an Equitable Multimodal Transportation Network” was accepted by Transportation Research Part B: Methodological."
+  },
+  {
+    "date": "2024-03",
+    "title": "Paper on multimodal charging networks accepted",
+    "body": "“Towards a Multimodal Charging Network: Joint Planning of Charging Stations and Battery Swapping Stations for Electrified Ride-Hailing Fleets” was accepted by Transportation Research Part B: Methodological."
+  },
+  {
+    "date": "2024-02",
+    "title": "Paper on operating mixed ride-hailing fleets accepted",
+    "body": "“Planning and Operation of Ride-Hailing Networks with a Mixture of Level-4 Autonomous Vehicles and For-Hire Human Drivers” was accepted by Transportation Research Part C: Emerging Technologies."
+  },
+  {
+    "date": "2024-02",
+    "title": "Paper on regulating mixed ride-hailing fleets accepted",
+    "body": "“Regulating Transportation Network Companies with a Mixture of Autonomous Vehicles and For-Hire Human Drivers” was accepted by Transportation Research Part A: Policy and Practice."
+  },
+  {
+    "date": "2024-01",
+    "title": "FedPT-V2G paper accepted by Applied Energy",
+    "body": "“FedPT-V2G: Security Enhanced Federated Transformer Learning for Real-time V2G Dispatch with Non-IID Data” was accepted by Applied Energy."
+  },
+  {
+    "date": "2023-01",
+    "title": "Paper on the economics of food delivery platforms accepted",
+    "body": "“An Economic Analysis of On-Demand Food Delivery Platforms: Impacts of Regulations and Integration with Ride-Sourcing Platforms” was accepted by Transportation Research Part E: Logistics and Transportation Review."
+  },
+  {
+    "date": "2022-12",
+    "title": "Group helps organize the 26th HKSTS International Conference",
+    "body": "The Hong Kong Society for Transportation Studies and HKUST jointly held the conference on 12–13 December 2022.",
+    "links": [
+      {
+        "label": "Conference information",
+        "url": "https://www.hksts.org/en/conference/26th_conference/"
+      }
+    ]
+  },
+  {
+    "date": "2022-12",
+    "title": "Tingting Dong and Yitong Shang join the group",
+    "body": "Tingting Dong and Yitong Shang joined as postdoctoral researchers."
+  },
+  {
+    "date": "2022-10",
+    "title": "Paper on labor regulation for ride-sourcing platforms accepted",
+    "body": "“An Analysis of Labor Regulations for Transportation Network Companies” was accepted by Economics of Transportation."
+  },
+  {
+    "date": "2022-09",
+    "title": "Mixed autonomous fleet study receives funding",
+    "body": "The Young Scientist Fund of the National Natural Science Foundation of China funded “Managing Mobility-on-Demand Services based on Level-4 Autonomous Vehicles: Coordination of Mixed Fleets and Regulation on Ride-Sourcing Platforms.”"
+  },
+  {
+    "date": "2022-09",
+    "title": "Yulong Hu and Shunpeng Yang join the group",
+    "body": "Yulong Hu and Shunpeng Yang joined as students."
+  },
+  {
+    "date": "2022-08",
+    "title": "Paper on ride-sourcing and preassigned pooling accepted",
+    "body": "“Coordinating Supply and Demand in Ride-sourcing Markets with Pre-assigned Pooling Service and Traffic Congestion Externality” was accepted by Transportation Research Part E: Logistics and Transportation Review."
+  },
+  {
+    "date": "2022-08",
+    "title": "Tourist coach parking study receives funding",
+    "body": "PICO’s Public Policy Research Funding Scheme funded “Regulating Tourist Coach Parking in Hong Kong: Curbside Management and Carpark Provision.”",
+    "links": [
+      {
+        "label": "Final report (PDF)",
+        "url": "https://www.cepu.gov.hk/doc/en/research_report%28PDF%29/2022.A7.024.22B_Final%20Report_Dr%20LI.pdf"
+      }
+    ]
+  },
+  {
+    "date": "2022-07",
+    "title": "Equitable autonomous mobility study receives funding",
+    "body": "The General Research Fund of Hong Kong’s Research Grants Council funded “Regulating For-Hire Autonomous Vehicles towards an Equitable Mobility Future.”",
+    "links": [
+      {
+        "label": "HKUST project record",
+        "url": "https://researchportal.hkust.edu.hk/en/projects/regulating-for-hire-autonomous-vehicles-towards-an-equitable-mobi/"
+      }
+    ]
+  },
+  {
+    "date": "2022-05",
+    "title": "Paper on shared electric vehicle pricing and fleet management accepted",
+    "body": "“Optimal pricing and fleet management for shared electric vehicle in coupled power and transport networks” was accepted by Transportation Research Part C: Emerging Technologies."
+  },
+  {
+    "date": "2022-03",
+    "title": "Paper on on-demand valet charging accepted",
+    "body": "“On-demand valet charging for electric vehicles: economic equilibrium, Infrastructure Planning and Regulatory Incentives” was accepted by Transportation Research Part C: Emerging Technologies."
+  },
+  {
+    "date": "2022-01",
+    "title": "Paper on shared parking and cruising traffic accepted",
+    "body": "“Shared parking for ride-sourcing platforms to reduce cruising traffic” was accepted by Transportation Research Part C: Emerging Technologies."
+  },
+  {
+    "date": "2020-07",
+    "title": "Multimodal transportation regulation study receives funding",
+    "body": "The Early Career Scheme of Hong Kong’s Research Grants Council funded “Regulating Transportation Network Companies in Multimodal Transportation Systems.”"
+  }
+]

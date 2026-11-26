@@ -1,0 +1,16 @@
+{
+  "source": "https://www.smartcityhkust.com/contact-me",
+  "postedDate": "2025-03",
+  "email": "cesli@ust.hk",
+  "intro": "PhD and postdoctoral opportunities in reinforcement learning, optimization, and transportation and power systems at HKUST.",
+  "researchStatement": "We welcome highly motivated PhD applicants and postdoctoral researchers interested in reinforcement learning, optimization, and decision-making in transportation and power systems. Applicants from automation, electrical engineering, industrial engineering, civil engineering, and applied mathematics are encouraged to apply. A strong mathematical background is particularly valuable, and candidates with strong potential may apply without prior experience in these application areas.",
+  "historicalPositions": "one postdoctoral fellowship and multiple PhD positions",
+  "admissions": {
+    "label": "HKUST graduate admissions",
+    "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/how-to-apply"
+  },
+  "fellowship": {
+    "label": "Hong Kong PhD Fellowship Scheme",
+    "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees"
+  }
+}

@@ -1,0 +1,26 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import LinkList from '../components/LinkList.astro';
+import { formatMonth } from '../lib/site';
+import news from '../data/news.json';
+const years = [...new Set(news.map(({ date }) => date.split('-')[0]))]
+  .sort((left, right) => right.localeCompare(left));
+const archive = years.map((year) => ({
+  year,
+  items: news.filter(({ date }) => date.startsWith(year)),
+}));
+---
+<SiteLayout title="News" description="Announcements, research milestones, and updates from the Smart City Research Group at HKUST.">
+  <header class="page-intro"><h1>Group news</h1></header>
+  {archive.map(({ year, items }) => (
+    <section class="section" aria-labelledby={`news-${year}`}>
+      <h2 id={`news-${year}`}>{year}</h2>
+      <ol class="news-list" role="list">
+        {items.map((item) => <li>
+          <time datetime={item.date}>{formatMonth(item.date)}</time>
+          <div><h3>{item.title}</h3>{item.body && <p>{item.body}</p>}<LinkList links={item.links} /></div>
+        </li>)}
+      </ol>
+    </section>
+  ))}
+</SiteLayout>

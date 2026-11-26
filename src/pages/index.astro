@@ -1,0 +1,59 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { sitePath } from '../lib/site';
+import { selectedPublications } from '../lib/research';
+import research from '../data/research.json';
+import people from '../data/people.json';
+
+const { investigator } = people;
+const profileLinks = investigator.links.filter(({ label }) => ['Google Scholar', 'ORCID', 'HKUST faculty profile'].includes(label));
+---
+<SiteLayout active="Home" description={investigator.researchFocus} image={investigator.image}>
+  <div class="academic-home">
+    <aside class="identity" aria-labelledby="sen-li-name">
+      <img class="identity-photo" src={sitePath(investigator.image)} width="720" height="914" alt="Sen Li" fetchpriority="high" />
+      <div class="identity-name">
+        <h1 id="sen-li-name">{investigator.name} <span lang="zh-Hant">{investigator.chineseName}</span></h1>
+        <p class="identity-role">{investigator.role}</p>
+        <p class="identity-affiliation">{investigator.department}<br />{investigator.university}</p>
+      </div>
+      <address><a href={`mailto:${investigator.email}`}>{investigator.email}</a><span>{investigator.office}</span></address>
+      <ul class="identity-links" role="list">
+        {profileLinks.map(({ label, url }) => <li><a href={url}>{label}</a></li>)}
+      </ul>
+    </aside>
+
+    <div class="home-reading">
+      <section id="biography">
+        <h2>Biography</h2>
+        {investigator.bio.map((paragraph) => <p>{paragraph}</p>)}
+        <a class="subtle-link profile-link" href={sitePath('profile/')}>Full academic profile</a>
+      </section>
+      <section id="research-areas">
+        <h2>Research interests</h2>
+        <dl class="interest-rows">
+          <div>
+            <dt>Theory and methods</dt>
+            <dd>{research.methods.join(', ')}</dd>
+          </div>
+          <div>
+            <dt>Applications</dt>
+            <dd>{research.areas.map((area, index) => <>{index > 0 && ' and '}<a href={sitePath(`research/#${area.slug}`)}>{area.title}</a></>)}</dd>
+          </div>
+        </dl>
+      </section>
+      <section id="selected-publications">
+        <div class="section-heading"><h2>Selected publications</h2><a href={sitePath('publications/')}>Full list <span aria-hidden="true">→</span></a></div>
+        <ul class="home-papers" role="list">
+          {selectedPublications.map((paper) => <li>
+            <p class="selected-citation">{paper.authors} ({paper.year}). <a href={sitePath(`publications/#${paper.id}`)}>{paper.title}</a>{/[.!?]$/.test(paper.title) ? ' ' : '. '}<cite>{paper.venue}</cite>{paper.details && <>, {paper.details}</>}.{paper.note?.startsWith('Accepted') && <> {paper.note}</>}</p>
+          </li>)}
+        </ul>
+      </section>
+      <section class="home-group">
+        <h2>Research group</h2>
+        <p>Meet our <a href={sitePath('people/')}>group members and alumni</a>. Prospective PhD students and postdoctoral researchers can find <a href={sitePath('join-us/')}>application and contact details</a>.</p>
+      </section>
+    </div>
+  </div>
+</SiteLayout>

@@ -1,0 +1,249 @@
+{
+  "source": "https://www.smartcityhkust.com/projects-3",
+  "intro": "We develop new machine learning and reinforcement learning algorithms, grounded in optimization and control, to solve complex decision-making problems in transportation and power systems. Our research advances AI methods for coordinating large systems, adapting to uncertainty and making better use of limited resources.",
+  "areas": [
+    {
+      "slug": "transportation-systems",
+      "anchor": "transportation-systems",
+      "title": "Transportation systems",
+      "shortTitle": "Transportation systems",
+      "navLabel": "Transportation systems",
+      "summary": "Planning, operation and regulation of shared, autonomous and multimodal transportation.",
+      "image": "images/research/autonomous-mobility.webp",
+      "imageAlt": "Illustration of connected vehicles, a bus and road infrastructure at an urban intersection",
+      "imageWidth": 1100,
+      "imageHeight": 825,
+      "credit": {
+        "label": "WSP",
+        "url": "https://www.wsp.com/en-sg/insights/connected-automated-vehicles-and-public-transportation"
+      },
+      "legacyAnchors": [
+        "theme-1",
+        "theme-2",
+        "theme-8",
+        "mobility-systems",
+        "markets-and-policy",
+        "emerging-mobility-regulation",
+        "autonomous-mobility-on-demand"
+      ],
+      "paragraphs": [
+        "Getting people and goods around a city requires many decisions to work together. A shared ride must work for several passengers, a delivery may require a handoff between a courier and a drone, and an electric fleet needs time and places to recharge. Decisions made by one platform can also change traffic conditions and demand for public transport. We study how these services can be planned and operated together. Our research examines who should serve each request, where vehicles should wait or move next, and how shared mobility can connect with public transport.",
+        "We combine mathematical models with machine learning and reinforcement learning to explore these questions. Using recorded travel and delivery data, we build simulations in which different operating rules can be compared and decision rules can be learned. We also study the incentives facing platforms, passengers and workers, including how fares, wages, privacy rules and regulations affect their choices. This links operational questions to wider concerns about congestion, access and working conditions. By making these trade-offs visible, we aim to support transportation services and policies that serve a city’s needs as well as the people using and providing them. The same combination of data analysis, algorithm design and an understanding of human behavior is useful in mobility platforms, logistics operations and public planning."
+      ]
+    },
+    {
+      "slug": "power-systems",
+      "anchor": "power-systems",
+      "title": "Power systems",
+      "shortTitle": "Power systems",
+      "navLabel": "Power systems",
+      "summary": "Renewable electricity, distributed resources and the coordinated operation of transport and power infrastructure.",
+      "image": "images/research/renewable-power-grids.webp",
+      "imageAlt": "Balance-scale illustration of electricity supply, urban demand and grid reserves",
+      "imageWidth": 609,
+      "imageHeight": 284,
+      "credit": {
+        "label": "Original research website",
+        "url": "https://www.smartcityhkust.com/projects-3"
+      },
+      "legacyAnchors": [
+        "theme-3",
+        "theme-4",
+        "theme-5",
+        "energy-and-electrification",
+        "electric-vehicle-business-models",
+        "renewable-power-grids",
+        "energy-systems"
+      ],
+      "paragraphs": [
+        "Power systems are changing as renewable generation, batteries and electric vehicles become more common. Solar and wind output varies with the weather, while homes, businesses and transport services need power at different times. Keeping supply and demand balanced therefore depends on coordinating resources across the network. We study how electricity use, storage and charging can respond to these changing conditions. One focus is the operation of industrial solar–battery systems, where decisions must account for both the electricity consumed over a month and charges linked to the highest level of power demand.",
+        "Our work combines optimization, control and learning to investigate when batteries should charge or discharge, how flexible electricity demand can help the grid, and how electric fleets interact with power infrastructure. We explore ways to learn operating strategies from recorded data and examples of good decisions, and examine how to assess those strategies under changing conditions. We also investigate market arrangements that coordinate many smaller resources and planning choices for charging networks. The wider goal is to help manage a power system with more renewable generation while considering operating costs, the needs of users and the links between electricity and transportation. Work in this area connects AI and mathematical modeling with practical questions faced by utilities, grid operators and businesses electrifying their operations."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "emerging-mobility-regulation",
+      "title": "Regulations on Emerging Mobility",
+      "summary": "How can cities regulate ride-sourcing and micromobility while weighing congestion, competition with public transit, and working conditions?",
+      "paragraphs": [
+        "We build economic equilibrium models to examine how regulations change these markets. We calibrate the models with empirical data to quantify policy impacts and give policymakers a basis for comparing regulatory options."
+      ],
+      "image": "images/research/emerging-mobility.webp",
+      "imageAlt": "Illustration of shared cars and micromobility against an urban skyline",
+      "credit": {
+        "label": "CarE-Service",
+        "url": "https://www.careserviceproject.eu/new-mobility-services/"
+      },
+      "shortTitle": "Mobility regulation"
+    },
+    {
+      "slug": "autonomous-mobility-on-demand",
+      "title": "Control and Operation of Autonomous Mobility-on-Demand Systems",
+      "summary": "We develop multi-agent reinforcement learning methods to operate autonomous mobility services alongside human-driven vehicles and public transport.",
+      "paragraphs": [
+        "Autonomous fleets could reduce the need for private car ownership and parking while making on-demand trips available throughout the day. We study fleet operations, interactions with human drivers on shared road networks, and competition with other travel modes."
+      ],
+      "image": "images/research/autonomous-mobility.webp",
+      "imageAlt": "Illustration of an intersection with connected passenger vehicles and a bus",
+      "credit": {
+        "label": "WSP",
+        "url": "https://www.wsp.com/en-sg/insights/connected-automated-vehicles-and-public-transportation"
+      },
+      "shortTitle": "Autonomous fleet operations"
+    },
+    {
+      "slug": "electric-vehicle-business-models",
+      "title": "Promoting Electric Vehicles with Innovative Business Models",
+      "summary": "We study charging networks, electric fleet operations and policies that can make it easier to adopt electric vehicles in cities.",
+      "paragraphs": [
+        "Charging can still be inconvenient even where electrification offers substantial emissions reductions. Our work looks at where to build charging infrastructure, how to run electric fleets efficiently with lower emissions, and which policies support the shift to electric urban mobility."
+      ],
+      "image": "images/research/transport-electrification.webp",
+      "imageAlt": "Illustration of an electric car between lane markings shaped like charging plugs",
+      "credit": {
+        "label": "The New York Times",
+        "url": "https://www.nytimes.com/2021/02/12/technology/electric-cars-batteries.html"
+      },
+      "shortTitle": "Electric fleets and charging services"
+    },
+    {
+      "slug": "renewable-power-grids",
+      "title": "Balancing Power Grids under Deep Renewable Penetration",
+      "summary": "We study ways to balance electricity supply and demand as wind and solar account for more of the power mix.",
+      "paragraphs": [
+        "Weather-dependent generation makes grid operations less predictable. We investigate approaches on both the demand and supply sides that could accommodate more renewable generation while keeping costs manageable."
+      ],
+      "image": "images/research/renewable-power-grids.webp",
+      "imageAlt": "Diagram of a balance scale representing electricity supply, urban demand and reserves",
+      "shortTitle": "Renewable power grids"
+    },
+    {
+      "slug": "mapping-safety-perception",
+      "title": "Mapping Residents’ Perception of Safety through Street View Images and Interpretable AI",
+      "summary": "Our Hong Kong case study uses street-view and satellite imagery to map how residents perceive safety across urban environments.",
+      "paragraphs": [
+        "We use interpretable geographic AI to examine which features of the built environment influence perceived safety, and how estimates change across demographic groups and scenarios. The findings can inform urban design and policy for developments including Lantau Tomorrow Vision and the Northern Metropolis."
+      ],
+      "image": "images/research/safety-perception.webp",
+      "imageAlt": "Diagram of the three stages of the safety perception modelling framework",
+      "links": [
+        {
+          "label": "Transferred Bias Uncovers the Balance Between the Development of Physical and Socioeconomic Environments of Cities",
+          "url": "https://doi.org/10.1080/24694452.2024.2412173"
+        },
+        {
+          "label": "Urban sensing in the era of large language models",
+          "url": "https://doi.org/10.1016/j.xinn.2024.100749"
+        }
+      ],
+      "detail": {
+        "source": "https://www.smartcityhkust.com/single-project",
+        "title": "Mapping Residents’ Perception of Safety through Street View Images and Interpretable AI: A Hong Kong Case Study",
+        "funding": "Funded by the Public Policy Research Funding Scheme under the Chief Executive’s Policy Unit.",
+        "intro": [
+          "How safe a place feels affects daily life and well-being. Citywide measures of that experience are difficult to collect through surveys alone. This study examines how to measure perceived safety in Hong Kong at scale using geographic artificial intelligence (GeoAI) and urban imagery.",
+          "The project develops a model using Google Street View and satellite images, compiles a dataset and maps perceived safety at city scale. It also investigates why perceptions differ between demographic groups and how those differences can inform government planning."
+        ],
+        "links": [
+          {
+            "label": "Final report from the Chief Executive’s Policy Unit (PDF)",
+            "url": "https://www.cepu.gov.hk/doc/en/research_report%28PDF%29/2023.A7.025.23A_Final%20Report_Dr%20Li.pdf"
+          }
+        ],
+        "sections": [
+          {
+            "title": "Building a GeoAI model of perceived safety",
+            "paragraphs": [
+              "The framework combines visual evidence from street-view imagery with text generated by a large language model. It estimates perceived safety for specific demographic profiles in traffic and crime scenarios.",
+              "We validated the framework against individual survey responses. The baseline model scored 0.76 on precision, recall and F1 overall, while the unadapted model scored between 0.57 and 0.61 on demographic-specific data. Fine-tuning improved every demographic-specific metric in the validation table."
+            ],
+            "items": [
+              "Generate contextual descriptions. Describe each street scene with a large language model, first in general terms and then for particular age groups, genders and safety scenarios.",
+              "Train a general model. Use these descriptions, imagery and existing safety ratings to train a supervised deep learning model.",
+              "Adapt the model with pseudo-labels. Fine-tune the general model with descriptions and provisional labels for specific groups and scenarios where labelled survey data are scarce."
+            ],
+            "figures": [
+              {
+                "image": "images/research/safety-perception.webp",
+                "alt": "Workflow from contextual image descriptions to supervised training and demographic-specific fine-tuning",
+                "caption": "Figure 1. The three stages of the safety perception modelling framework."
+              },
+              {
+                "image": "images/research/safety-validation-table.webp",
+                "alt": "Validation table for baseline and fine-tuned models across demographic groups",
+                "caption": "Model validation. Precision, recall and F1 scores by demographic group."
+              }
+            ]
+          },
+          {
+            "title": "Mapping perceived safety across Hong Kong",
+            "paragraphs": [
+              "The study mapped model estimates for middle-aged and older residents, men and women, in both traffic and crime scenarios. Traffic safety estimates averaged about 8 out of 10. Older residents and women generally had lower estimated traffic safety than their comparison groups. Crime-related estimates for men clustered near 8 and estimates for women around 5.5.",
+              "Northern Hong Kong and eastern Hong Kong Island had some of the higher traffic safety estimates. Age-related differences were relatively small in much of Kowloon and Hong Kong Island. The study identified larger differences in parts of Tuen Mun, Yuen Long, Sheung Shui and Fanling, with local exceptions such as Causeway Bay and Kowloon Tong.",
+              "Estimated gender differences in traffic safety also varied by neighbourhood. Men generally had higher scores, while women had higher scores in places including Sai Kung and parts of the north. Some parts of the New Territories and Lantau Island showed larger gender differences. These maps identify locations where more targeted street and transport improvements can be investigated."
+            ],
+            "figures": [
+              {
+                "image": "images/research/safety-figure-2.webp",
+                "alt": "Four distributions of estimated traffic and crime safety by age and gender",
+                "caption": "Figure 2. Kernel density estimates of perceived traffic and crime safety by demographic group."
+              },
+              {
+                "image": "images/research/safety-figure-3.webp",
+                "alt": "Eight Hong Kong maps comparing estimated traffic and crime safety for age and gender groups",
+                "caption": "Figure 3. Estimated traffic and crime safety by age and gender across Hong Kong."
+              },
+              {
+                "image": "images/research/safety-figure-4.webp",
+                "alt": "Eight maps comparing differences between groups and showing local spatial clusters",
+                "caption": "Figure 4. Differences by age and gender in each scenario, with Local Moran’s I maps showing spatial clustering."
+              }
+            ]
+          },
+          {
+            "title": "Identifying features associated with perceived safety",
+            "paragraphs": [
+              "We used Grad-CAM, a technique for visualizing which parts of an image a model emphasizes. In scenes with higher safety estimates, the model often emphasized visible road signs and markings. In scenes with lower estimates, it often emphasized nearby vehicles or vegetation that could limit visibility.",
+              "The study also compared types of nearby points of interest. Concentrations of lifestyle services and entertainment were associated with larger differences in perceived traffic safety. Financial, residential and educational land uses showed the opposite association. Dining, health care and transport facilities were associated with smaller gender differences in perceived safety from crime.",
+              "These associations can help planners decide where to examine pedestrian and vehicle traffic, lighting, and the design of public transport hubs."
+            ],
+            "figures": [
+              {
+                "image": "images/research/safety-figure-5.webp",
+                "alt": "Street views and matching Grad-CAM heatmaps showing where the model focuses",
+                "caption": "Figure 5. Grad-CAM results for examples of different built environments."
+              },
+              {
+                "image": "images/research/safety-figure-6.webp",
+                "alt": "Plots comparing points of interest with differences in safety perception by group and scenario",
+                "caption": "Figure 6. Associations between point-of-interest types and differences in perceived safety."
+              }
+            ]
+          }
+        ]
+      },
+      "shortTitle": "Hong Kong safety perception"
+    }
+  ],
+  "methods": [
+    "Optimization",
+    "Control",
+    "Machine learning",
+    "Reinforcement learning"
+  ],
+  "methodLegacyAnchors": [
+    "theme-6",
+    "theme-7",
+    "urban-ai"
+  ],
+  "applicationLegacyAnchors": [
+    "themes",
+    "projects",
+    "mapping-safety-perception"
+  ],
+  "methodsParagraphs": [
+    "Cities run on decisions that are connected across time and across people. Assigning a vehicle to a passenger now changes where that vehicle will be available later. Charging a battery today affects both its future flexibility and the electricity bill at the end of the month. These links make individual decisions difficult to judge in isolation. We develop methods that describe these interactions, compare possible decisions and coordinate many participants when information is incomplete. Optimization helps identify choices within practical constraints, while control provides a way to update those choices as conditions change.",
+    "Our research also asks how machine learning and reinforcement learning algorithms can learn decision rules from experience. Machine learning helps represent complex patterns in data, and reinforcement learning studies choices through the consequences they produce over time. We investigate how multiple decision-makers can learn to cooperate, how decision rules can be learned from recorded data, and how learned models can work with established optimization tools. We examine these ideas through mathematical analysis, simulation and operational data. The aim is to develop methods for managing large systems and examining their consequences, with applications ranging from mobility platforms to power utilities. These questions bring together mathematical reasoning, AI and software development, skills that connect theoretical research with the design of services people use every day."
+  ]
+}

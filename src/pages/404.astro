@@ -1,0 +1,10 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { sitePath } from '../lib/site';
+---
+<SiteLayout title="Page unavailable" description="The requested page could not be found." noindex>
+  <div class="page-intro">
+    <h1>Page unavailable</h1>
+    <p class="lead">This link may have moved. <a href={sitePath()}>Go to the home page</a>.</p>
+  </div>
+</SiteLayout>

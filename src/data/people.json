@@ -1,0 +1,254 @@
+{
+  "source": "https://www.smartcityhkust.com/team-4",
+  "rosterSource": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sen-li-cesli",
+  "rosterDate": "2026-11-26",
+  "investigator": {
+    "name": "Sen Li",
+    "degree": "PhD",
+    "role": "Associate Professor",
+    "affiliation": "Department of Civil and Environmental Engineering, The Hong Kong University of Science and Technology",
+    "department": "Department of Civil and Environmental Engineering",
+    "university": "The Hong Kong University of Science and Technology",
+    "email": "cesli@ust.hk",
+    "phone": "+852 2358 7155",
+    "office": "Room 3586 (via lifts 27–28), HKUST, Clear Water Bay",
+    "image": "images/people/sen-li.webp",
+    "bio": [
+      "I am an Associate Professor in the Department of Civil and Environmental Engineering at the Hong Kong University of Science and Technology (HKUST), where I lead the Smart City Research Group. I joined HKUST as an Assistant Professor in December 2019 and was appointed Associate Professor in July 2026. I earned my PhD in Electrical and Computer Engineering from The Ohio State University in 2017 and my bachelor’s degree in Electrical Engineering from Zhejiang University in 2012. Before joining HKUST, I was a postdoctoral fellow at the University of California, Berkeley, working with Kameshwar Poolla and Pravin Varaiya.",
+      "I work on the theory and methods of control, optimization, machine learning, and reinforcement learning, with applications to transportation and power systems. I received the 2025 IEEE Transactions on Industry Applications Third Prize Paper Award, the 2020 O. Hugo Schuck Best Paper Award from the American Automatic Control Council, and the Best Student Paper Award at the 2020 IEEE International Conference on Intelligent Transportation Systems. I was also a finalist for the Best Student Paper Award at the 2018 European Control Conference. I serve as an Associate Editor of IEEE Transactions on Intelligent Transportation Systems, a Young Editorial Board Member of Communications in Transportation Research, and an Editorial Board Member of Transportmetrica A: Transport Science."
+    ],
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=U56wNGYAAAAJ"
+      },
+      {
+        "label": "HKUST faculty profile",
+        "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sen-li-cesli"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0003-4974-4177"
+      }
+    ],
+    "researchFocus": "I work on the theory and methods of control, optimization, machine learning, and reinforcement learning, with applications to transportation and power systems.",
+    "chineseName": "李森"
+  },
+  "sections": [
+    {
+      "title": "Research faculty and postdoctoral scholars",
+      "people": [
+        {
+          "name": "Yitong Shang",
+          "role": "Research Assistant Professor",
+          "image": "images/people/yitong-shang.webp",
+          "email": "ytshang@ust.hk",
+          "details": [
+            "PhD, School of Information and Communication Engineering, Harbin Institute of Technology (2017–2022)",
+            "B.S., College of Information and Electrical Engineering, China Agricultural University (2013–2017)"
+          ],
+          "links": [
+            {
+              "label": "HKUST faculty profile",
+              "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yitong-shang-ytshang"
+            }
+          ]
+        },
+        {
+          "name": "Tingting Dong",
+          "role": "Postdoctoral Scholar",
+          "image": "images/people/tingting-dong.webp",
+          "email": "dongtthit@ust.hk",
+          "details": [
+            "PhD, Transportation Planning and Management, Harbin Institute of Technology (2016–2022)",
+            "B.S., Traffic Engineering, Harbin Institute of Technology (2011–2015)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Doctoral researchers",
+      "people": [
+        {
+          "name": "Zhefeng Cao",
+          "role": "PhD Student",
+          "image": "images/people/zhefeng-cao.webp",
+          "email": "zcaoao@connect.ust.hk",
+          "details": [
+            "Co-advised by Prof. Wei Zhang",
+            "B.S., Department of Flight Vehicle and Design, Zhejiang University (2016–2020)"
+          ]
+        },
+        {
+          "name": "Xingzhao Yang",
+          "role": "PhD Student",
+          "image": "images/people/xingzhao-yang.webp",
+          "email": "xyangby@connect.ust.hk",
+          "details": [
+            "M.S., Huazhong University of Science and Technology (2015–2017)",
+            "B.S., Wuhan University of Technology (2010–2014)"
+          ]
+        },
+        {
+          "name": "Shunpeng Yang",
+          "role": "PhD Student",
+          "image": "images/people/shunpeng-yang.webp",
+          "email": "shunpeng.yang@connect.ust.hk",
+          "details": [
+            "Co-advised by Prof. Wei Zhang",
+            "M.S., Southern University of Science and Technology (2019–2022)",
+            "B.S., Zhejiang University (2015–2019)"
+          ]
+        },
+        {
+          "name": "Hongbo Zhu",
+          "role": "PhD Student",
+          "details": [
+            "PhD studies at HKUST, entered Fall 2023",
+            "Supervised by Prof. Sen Li"
+          ],
+          "links": [
+            {
+              "label": "HKUST supervisor profile",
+              "url": "https://researchportal.hkust.edu.hk/en/persons/sen-li/"
+            }
+          ],
+          "image": "images/people/hongbo-zhu.png",
+          "imageSource": "https://www.wzhanglab.site/members/"
+        },
+        {
+          "name": "Zijian Zhao",
+          "role": "PhD Candidate",
+          "email": "zzhaock@connect.ust.hk",
+          "details": [
+            "PhD in Civil Engineering (Scientific Computation), HKUST (since 2024)",
+            "Supervised by Prof. Sen Li",
+            "B.Eng., Computer Science and Technology, Sun Yat-sen University (2024)",
+            "Research on multi-agent reinforcement learning and large language models for intelligent transportation"
+          ],
+          "links": [
+            {
+              "label": "Personal website",
+              "url": "https://zijianzhao.netlify.app/"
+            }
+          ],
+          "image": "images/people/zijian-zhao.jpg",
+          "imageSource": "https://zijianzhao.netlify.app/authors/admin/avatar_hua33bc5a343d490d2bc9baf771ff9364f_181537_270x270_fill_q75_lanczos_center.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Alumni",
+      "people": [
+        {
+          "name": "Jing Gao",
+          "role": "Research Assistant Professor, The Hong Kong Polytechnic University",
+          "image": "images/people/jing-gao.webp",
+          "email": "jing.gao@polyu.edu.hk",
+          "details": [
+            "PhD, Civil Engineering, HKUST (2024)",
+            "Hong Kong PhD Fellowship Scheme awardee",
+            "B.S., Traffic Engineering, Sun Yat-sen University (2014–2018)"
+          ],
+          "links": [
+            {
+              "label": "PolyU profile",
+              "url": "https://research.polyu.edu.hk/en/persons/jing-gao/"
+            },
+            {
+              "label": "Personal website",
+              "url": "https://jgaoax.github.io/"
+            }
+          ]
+        },
+        {
+          "name": "Zhijie Lai",
+          "role": "PhD Alumnus",
+          "image": "images/people/zhijie-lai.webp",
+          "email": "zlaiaa@connect.ust.hk",
+          "details": [
+            "PhD, Civil Engineering, HKUST (2024)",
+            "B.S., Department of Control Science and Engineering, Tongji University (2016–2020)"
+          ],
+          "links": [
+            {
+              "label": "HKUST congregation",
+              "url": "https://booklet.congregation.ust.hk/2025/cbook_book1/80/"
+            }
+          ]
+        },
+        {
+          "name": "Zemin Wang",
+          "role": "PhD Alumnus",
+          "image": "images/people/zemin-wang.webp",
+          "email": "zemin.wang@connect.ust.hk",
+          "details": [
+            "PhD, Civil Engineering, HKUST (2025)",
+            "B.S., School of Transportation, Southeast University (2016–2020)"
+          ],
+          "links": [
+            {
+              "label": "Doctoral thesis",
+              "url": "https://repository.hkust.edu.hk/ir/bitstream/1783.1-151300/1/1783.1-151300.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Di Ao",
+          "role": "PhD Alumnus",
+          "image": "images/people/di-ao.webp",
+          "email": "daoaa@connect.ust.hk",
+          "details": [
+            "PhD, Individualized Interdisciplinary Program (Intelligent Transportation), HKUST (2025)",
+            "Institute of Facility Agriculture, Guangdong Academy of Agricultural Sciences",
+            "M.S., University of Macau (2017–2019)",
+            "B.S., Harbin Institute of Technology (2010–2014)"
+          ],
+          "links": [
+            {
+              "label": "Doctoral thesis",
+              "url": "https://repository.hkust.edu.hk/ir/Record/1783.1-152334"
+            },
+            {
+              "label": "Recent publication and affiliation",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1000934526001380"
+            }
+          ]
+        },
+        {
+          "name": "Yang Liu",
+          "role": "PhD Alumnus",
+          "image": "images/people/yang-liu.webp",
+          "email": "yliuiw@connect.ust.hk",
+          "details": [
+            "PhD, Civil Engineering, HKUST (2025)",
+            "B.S., Department of Naval Architecture and Ocean Engineering, Shanghai Jiao Tong University (2016–2020)"
+          ],
+          "links": [
+            {
+              "label": "Doctoral thesis",
+              "url": "https://researchportal.hkust.edu.hk/en/studentTheses/optimizing-on-demand-delivery-services-under-emerging-business-mo/"
+            }
+          ]
+        },
+        {
+          "name": "Yulong Hu",
+          "role": "PhD Alumnus",
+          "image": "images/people/yulong-hu.webp",
+          "email": "yulong.hu@connect.ust.hk",
+          "details": [
+            "PhD, Civil Engineering, HKUST (2026)",
+            "Hong Kong PhD Fellowship Scheme awardee",
+            "B.S., Department of Electrical Engineering and Automation, Chongqing University (2018–2022)"
+          ],
+          "links": [
+            {
+              "label": "HKUST supervision record",
+              "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sen-li-cesli"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

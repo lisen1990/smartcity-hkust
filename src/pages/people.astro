@@ -1,0 +1,55 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import LinkList from '../components/LinkList.astro';
+import { sitePath } from '../lib/site';
+import people from '../data/people.json';
+const { investigator, sections, rosterSource } = people;
+const investigatorLinks = investigator.links
+  .filter(({ url }) => url !== rosterSource);
+---
+<SiteLayout title="People" active="People" description="Meet Dr. Sen Li, research faculty, doctoral researchers, and alumni of the Smart City Research Group at HKUST.">
+  <header class="page-intro"><h1>People</h1></header>
+  <nav class="section" aria-label="People sections">
+    <ul class="text-links" role="list">
+      <li><a href="#sen-li">Principal investigator</a></li>
+      {sections.map((group, index) => <li><a href={`#team-${index + 1}`}>{group.title}</a></li>)}
+    </ul>
+  </nav>
+  <section class="section" id="sen-li" aria-labelledby="investigator-heading">
+    <div class="investigator-header">
+      <img class="identity-photo" src={sitePath(investigator.image)} width="720" height="914" alt={investigator.name} decoding="async" />
+      <div class="investigator-copy">
+        <h2 id="investigator-heading">{investigator.name}, {investigator.degree}</h2>
+        <p class="role">Principal Investigator · {investigator.role}</p>
+        <dl class="profile-contact">
+          <div><dt>Email</dt><dd><a href={`mailto:${investigator.email}`}>{investigator.email}</a></dd></div>
+          <div><dt>Office</dt><dd>{investigator.office}</dd></div>
+          <div><dt>Phone</dt><dd><a href={`tel:${investigator.phone.replace(/[^+\d]/g, '')}`}>{investigator.phone}</a></dd></div>
+        </dl>
+        <p><a href={sitePath('profile/')}>Academic profile</a></p>
+        <p>The group develops control, optimization, and learning methods for transportation and power systems.</p>
+        <LinkList links={investigatorLinks} />
+      </div>
+    </div>
+  </section>
+  {sections.map((group, index) => (
+    <section class="section people-section" id={`team-${index + 1}`} aria-labelledby={`team-heading-${index + 1}`}>
+      <h2 id={`team-heading-${index + 1}`}>{group.title}</h2>
+      <div class="people-grid">
+        {group.people.map((person) => (
+          <article class="person-card">
+            {person.image && <img src={sitePath(person.image)} width="80" height="80" alt={person.name} loading="lazy" decoding="async" />}
+            <div class="person-copy">
+              <h3>{person.name}</h3>
+              {person.role && <p class="role">{person.role}</p>}
+              {person.details && <ul class="person-details" role="list">{person.details.map((detail) => <li>{detail}</li>)}</ul>}
+              {person.email && <a class="person-email" href={`mailto:${person.email}`}>{person.email}</a>}
+              <LinkList links={person.links} />
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+  {rosterSource && <p class="section"><a href={rosterSource}>HKUST postgraduate supervision roster</a></p>}
+</SiteLayout>

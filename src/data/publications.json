@@ -1,0 +1,1311 @@
+[
+  {
+    "id": "J53",
+    "title": "Transferring group knowledge from LLMs: The case of urban perception",
+    "authors": "C. Hou, F. Zhang, Y. Kang, Z. Fan, and S. Li",
+    "year": 2026,
+    "venue": "Cities",
+    "type": "journal",
+    "details": "180: 107745",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.cities.2026.107745"
+      },
+      {
+        "label": "Publisher",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0264275126009789"
+      }
+    ]
+  },
+  {
+    "id": "J52",
+    "title": "OSPO: One-step policy optimization for real-time order assignment on ride-sharing platforms with autonomous vehicles",
+    "authors": "Z. Zhao and S. Li",
+    "year": 2027,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "details": "195: 106130",
+    "note": "Journal version of “One Step is Enough” (NeurIPS 2026).",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2026.106130"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/RS2002/Scale-OSPO"
+      }
+    ]
+  },
+  {
+    "id": "J51",
+    "title": "Real-time Order Assignment for Ride-sharing Platforms with a Mixture of Pre-booked and On-demand Requests",
+    "authors": "Z. Zhao, J. Gao and S. Li",
+    "year": 2026,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2026.106036"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/RS2002/Prebooked-Ride-Sharing"
+      },
+      {
+        "label": "NYC taxi trip data",
+        "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page"
+      }
+    ]
+  },
+  {
+    "id": "J50",
+    "title": "The Space–Biodiversity Nexus Beyond Territory",
+    "authors": "A. P. Zhao, T. Li, Y. Shang, J. Shi, D. Xie, and S. Li",
+    "year": 2026,
+    "venue": "Nexus",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.ynexs.2026.100159"
+      }
+    ]
+  },
+  {
+    "id": "J49",
+    "title": "Regulating Curbside Parking for Tourist Coaches in Bi-Modal Transportation Networks",
+    "authors": "X. Yang, T. Dong, J. Gao, and S. Li",
+    "year": 2026,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2026.105666"
+      }
+    ]
+  },
+  {
+    "id": "J48",
+    "title": "Real-Time Order Dispatch for On-Demand Food-Delivery Platforms with a Mixed Fleet of Drones and Couriers",
+    "authors": "T. Dong, Y. Shang, Z. Lai, and S. Li",
+    "year": 2026,
+    "venue": "Transportation Research Part B: Methodological",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trb.2026.103449"
+      }
+    ],
+    "details": "208: 103449"
+  },
+  {
+    "id": "J47",
+    "title": "Discriminatory order assignment and payment-setting of on-demand food-delivery platforms: A multi-action and multi-agent reinforcement learning framework",
+    "authors": "Z. Zhao and S. Li",
+    "year": 2026,
+    "venue": "Transportation Research Part E: Logistics and Transportation Review",
+    "type": "journal",
+    "details": "208: 104653",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.tre.2025.104653"
+      },
+      {
+        "label": "Code and synthetic data",
+        "url": "https://github.com/RS2002/Discriminatory-Food-Delivery"
+      }
+    ]
+  },
+  {
+    "id": "J46",
+    "title": "Offline Inverse Reinforcement Learning for Joint Optimization of Energy Costs and Demand Charge in Industrial PV-Battery Load Systems",
+    "authors": "Y. Hu, and S. Li",
+    "year": 2026,
+    "venue": "Applied Energy",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.apenergy.2026.127416"
+      }
+    ],
+    "details": "408: 127416"
+  },
+  {
+    "id": "J45",
+    "title": "QSTAformer: A quantum-enhanced Transformer for robust short-term voltage stability assessment against adversarial attacks",
+    "authors": "Y. Li, C. Ma, Y. Li, S. Li, Y. Chen, and Z. Dong",
+    "year": 2026,
+    "venue": "Applied Energy",
+    "type": "journal",
+    "details": "405: 127196",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.apenergy.2025.127196"
+      }
+    ]
+  },
+  {
+    "id": "J44",
+    "title": "Integrated Optimization of Ride-Pooling and Shared Micro-mobility Services with Meeting Points",
+    "authors": "T. Dong, Y. Hu, Z. Wang and S. Li",
+    "year": 2026,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2025.105452"
+      }
+    ],
+    "details": "183: 105452"
+  },
+  {
+    "id": "J43",
+    "title": "Real-Time Coordination of Human Couriers and Drones for On-Demand Food-Delivery Platforms: A Multi-Stage Risk-Aware Multi-Agent Reinforcement Learning Framework",
+    "authors": "Y. Hu, Y. Du, and S. Li",
+    "year": 2025,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2025.105381"
+      }
+    ]
+  },
+  {
+    "id": "J42",
+    "title": "The Impacts of Data Privacy Regulations on Food-Delivery Platforms",
+    "authors": "Z. Zhao, and S. Li",
+    "year": 2025,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2025.105364"
+      },
+      {
+        "label": "Code and synthetic data",
+        "url": "https://github.com/RS2002/GDPR-Food-Delivery"
+      }
+    ],
+    "details": "181: 105364"
+  },
+  {
+    "id": "J41",
+    "title": "Integrated Operation of Ride-Hailing and Shared Micromobility Services in Multimodal Transportation Networks with Public Transit: The Unintended Consequences of Regulations",
+    "authors": "J. Gao, and S. Li",
+    "year": 2025,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2025.105340"
+      }
+    ]
+  },
+  {
+    "id": "J40",
+    "title": "Integrating Valet Charging with Mobile Discharging Services: A Strengthened Integer L-Shaped Method",
+    "authors": "Z. Lai, Y. Shang, T. Dong, and S. Li",
+    "year": 2025,
+    "venue": "Transportation Science",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1287/trsc.2024.0912"
+      }
+    ],
+    "details": "59(6): 1329–1352"
+  },
+  {
+    "id": "J39",
+    "title": "Piggyback on Idle Ride-Sourcing Drivers for Integrated On-Demand and Flexible Intracity Parcel Delivery Services",
+    "authors": "Y. Liu, and S. Li",
+    "year": 2025,
+    "venue": "Transportation Science",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1287/trsc.2024.0601"
+      }
+    ],
+    "details": "59(3): 494–517"
+  },
+  {
+    "id": "J38",
+    "title": "BMG-Q: Localized Bipartite Match Graph Attention Q-Learning for Ride-Pooling Order Dispatch",
+    "authors": "Y. Hu, S. Feng and S. Li",
+    "year": 2025,
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TITS.2025.3595653"
+      },
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2501.13448"
+      }
+    ]
+  },
+  {
+    "id": "J37",
+    "title": "Security-Enhanced Spatiotemporal Ride-Hailing Demand Prediction—Part I: Horizontal Federated Learning",
+    "authors": "Y. Shang, and S. Li",
+    "year": 2025,
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TITS.2025.3564627"
+      }
+    ]
+  },
+  {
+    "id": "J36",
+    "title": "Security-Enhanced Spatiotemporal Ride-Hailing Demand Prediction—Part II: Vertical Federated Learning",
+    "authors": "Y. Shang, and S. Li",
+    "year": 2025,
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TITS.2025.3564629"
+      }
+    ]
+  },
+  {
+    "id": "J35",
+    "title": "Coordinating Ride-Pooling with Public Transit using Reward-Guided Conservative Q-Learning: An Offline Training and Online Fine-Tuning Reinforcement Learning Framework",
+    "authors": "Y. Hu, T. Dong, and S. Li",
+    "year": 2025,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "details": "174: 105051",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2025.105051"
+      },
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2501.14199"
+      }
+    ]
+  },
+  {
+    "id": "J34",
+    "title": "Safe-AutoSAC: AutoML-enhanced safe deep reinforcement learning for integrated energy system scheduling with multi-channel informer forecasting and electric vehicle demand response",
+    "authors": "Y. Li, B. Zhao, Y. Li, C. Long, S. Li, Z. Dong, and M. Shahidehpour",
+    "year": 2025,
+    "venue": "Applied Energy",
+    "type": "journal",
+    "details": "399: 126468",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.apenergy.2025.126468"
+      }
+    ]
+  },
+  {
+    "id": "J33",
+    "title": "Explainable Spatiotemporal Multi-Task Learning for Electric Vehicle Charging Demand Prediction",
+    "authors": "Y. Shang, D. Li, Y. Li, and S. Li",
+    "year": 2025,
+    "venue": "Applied Energy",
+    "type": "journal",
+    "details": "384: 125460",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.apenergy.2025.125460"
+      }
+    ]
+  },
+  {
+    "id": "J32",
+    "title": "Enhancing Cyber-Resilience in Integrated Energy System Scheduling with Demand Response using Deep Reinforcement Learning",
+    "authors": "Y. Li, W. Ma, Y. Li, S. Li, Z. Chen, and M. Shahidehpour",
+    "year": 2025,
+    "venue": "Applied Energy",
+    "type": "journal",
+    "details": "379: 124831",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.apenergy.2024.124831"
+      }
+    ]
+  },
+  {
+    "id": "J31",
+    "title": "Optimal Parking Provision for Tourist Coaches in Large-Scale Bi-Modal Urban Transportation Networks",
+    "authors": "X. Yang, T. Dong, and S. Li",
+    "year": 2025,
+    "venue": "Transportmetrica A: Transport Science",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1080/23249935.2025.2570472"
+      }
+    ]
+  },
+  {
+    "id": "J30",
+    "title": "Transferred bias uncovers the balance between the development of physical and socio-economic environments of cities",
+    "authors": "C. Hou, F. Zhang, Y. Kang, S. Gao, Y. Li, Fábio Duarte, and S. Li",
+    "year": 2025,
+    "venue": "Annals of the American Association of Geographers",
+    "type": "journal",
+    "details": "115(1): 148–166",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1080/24694452.2024.2412173"
+      }
+    ]
+  },
+  {
+    "id": "J29",
+    "title": "Synergizing Shared Micromobility and Public Transit towards an Equitable Multimodal Transportation Network",
+    "authors": "J. Gao, and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part A: Policy and Practice",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.tra.2024.104225"
+      }
+    ]
+  },
+  {
+    "id": "J28",
+    "title": "Control of Dynamic Ride-Hailing Networks with a Mixed Fleet of Autonomous Vehicles and For-Hire Human Drivers",
+    "authors": "D. Ao, Z. Lai and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part E: Logistics and Transportation Review",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.tre.2024.103680"
+      }
+    ]
+  },
+  {
+    "id": "J27",
+    "title": "Competition between Autonomous and Traditional Ride-Hailing Platforms: Market Equilibrium and Technology Transfer",
+    "authors": "Z. Wang, and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2024.104728"
+      }
+    ]
+  },
+  {
+    "id": "J26",
+    "title": "Regulating For-Hire Autonomous Vehicles for An Equitable Multimodal Transportation Network",
+    "authors": "J. Gao, and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part B: Methodological",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trb.2024.102925"
+      },
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2301.05798"
+      }
+    ],
+    "details": "183: 102925"
+  },
+  {
+    "id": "J25",
+    "title": "Towards a Multimodal Charging Network: Joint Planning of Charging Stations and Battery Swapping Stations for Electrified Ride-Hailing Fleets",
+    "authors": "Z. Lai, and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part B: Methodological",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trb.2024.102928"
+      }
+    ],
+    "details": "183: 102928"
+  },
+  {
+    "id": "J24",
+    "title": "Planning and Operation of Ride-Hailing Networks with a Mixture of Level-4 Autonomous Vehicles and For-Hire Human Drivers",
+    "authors": "Z. Wang, J. Ke, and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2024.104541"
+      }
+    ]
+  },
+  {
+    "id": "J23",
+    "title": "Regulating Transportation Network Companies with a Mixture of Autonomous Vehicles and For-Hire Human Drivers",
+    "authors": "D. Ao, J. Gao, Z. Lai, and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part A: Policy and Practice",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.tra.2024.103975"
+      }
+    ]
+  },
+  {
+    "id": "J22",
+    "title": "FedPT-V2G: Security Enhanced Federated Transformer Learning for Real-time V2G Dispatch with Non-IID Data",
+    "authors": "Y. Shang and S. Li",
+    "year": 2024,
+    "venue": "Applied Energy",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.apenergy.2024.122626"
+      }
+    ]
+  },
+  {
+    "id": "J21",
+    "title": "Physical Informed-Inspired Deep Reinforcement Learning Based Bi-Level Programming for Microgrid Scheduling",
+    "authors": "Y. Li, J. Gao, Y. Li, C. Chen, S. Li, M. Shahidehpour, Z. Chen",
+    "year": 2024,
+    "venue": "IEEE Transactions on Industry Applications",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TIA.2024.3522486"
+      },
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2410.11932"
+      }
+    ]
+  },
+  {
+    "id": "J20",
+    "title": "An Information Security Solution for Vehicle-to-grid Scheduling by Distributed Edge Computing and Federated Deep Learning",
+    "authors": "Y. Shang, Z. Li, S. Li, Z. Shao and L. Jian",
+    "year": 2024,
+    "venue": "IEEE Transactions on Industry Applications",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TIA.2024.3351960"
+      }
+    ]
+  },
+  {
+    "id": "J19",
+    "title": "Charging Autonomous Electric Vehicle Fleet for Mobility-on-Demand Services: Plug in or Swap out?",
+    "authors": "J. Gao and S. Li",
+    "year": 2024,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2023.104457"
+      },
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2310.20130"
+      }
+    ]
+  },
+  {
+    "id": "J18",
+    "title": "Spatiotemporal Pricing and Fleet Management of Autonomous Mobility-on-Demand Networks: A Decomposition and Dynamic Programming Approach with Bounded Optimality Gap",
+    "authors": "Z. Lai and S. Li",
+    "year": 2024,
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TITS.2023.3340253"
+      }
+    ]
+  },
+  {
+    "id": "J17",
+    "title": "An Economic Analysis of On-Demand Food Delivery Platforms: Impacts of Regulations and Integration with Ride-Sourcing Platforms",
+    "authors": "Y. Liu and S. Li",
+    "year": 2023,
+    "venue": "Transportation Research Part E: Logistics and Transportation Review",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.tre.2023.103019"
+      }
+    ]
+  },
+  {
+    "id": "J16",
+    "title": "An Analysis of Labor Regulations for Transportation Network Companies",
+    "authors": "A. Shetty, S. Li, H. Tavafoghi, J. Qin, K. Poolla, and P. Varaiya",
+    "year": 2022,
+    "venue": "Economics of Transportation",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.ecotra.2022.100284"
+      }
+    ]
+  },
+  {
+    "id": "J15",
+    "title": "Coordinating Supply and Demand in Ride-sourcing Markets with Pre-assigned Pooling Service and Traffic Congestion Externality",
+    "authors": "J. Ke, X. Chen, H. Yang and S. Li",
+    "year": 2022,
+    "venue": "Transportation Research Part E: Logistics and Transportation Review",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.tre.2022.102887"
+      }
+    ]
+  },
+  {
+    "id": "J14",
+    "title": "Optimal Pricing and Fleet management for Shared Electric Vehicle in Coupled Power and Transport Networks",
+    "authors": "Y. Ding, S. Li and S. Jian",
+    "year": 2022,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2022.103727"
+      }
+    ]
+  },
+  {
+    "id": "J13",
+    "title": "On-Demand Valet Charging for Electric Vehicles: Economic Equilibrium, Infrastructure Planning and Regulatory Incentives",
+    "authors": "Z. Lai and S. Li",
+    "year": 2022,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2022.103669"
+      },
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2106.08162"
+      }
+    ]
+  },
+  {
+    "id": "J12",
+    "title": "Shared Parking for Ride-sourcing Platforms to Reduce Cruising Traffic",
+    "authors": "J. Gao, S. Li, and H. Yang",
+    "year": 2022,
+    "venue": "Transportation Research Part C: Emerging Technologies",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trc.2022.103562"
+      }
+    ]
+  },
+  {
+    "id": "J11",
+    "title": "Spatial Pricing in Ride-sourcing Markets under a Congestion Charge",
+    "authors": "S. Li, H. Yang, K. Poolla, and P. Varaiya",
+    "year": 2021,
+    "venue": "Transportation Research Part B: Methodological",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trb.2021.07.004"
+      }
+    ],
+    "details": "152: 18–45"
+  },
+  {
+    "id": "J10",
+    "title": "Impact of Congestion Charge and Minimum Wage on TNC: A Case Study for San Francisco",
+    "authors": "S. Li, K. Poolla, and P. Varaiya",
+    "year": 2021,
+    "venue": "Transportation Research Part A: Policy and Practice",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.tra.2021.02.008"
+      }
+    ]
+  },
+  {
+    "id": "J9",
+    "title": "Optimal Resource Procurement and The Price of Causality",
+    "authors": "S. Li, A. Shetty, K. Poolla, and P. Varaiya",
+    "year": 2021,
+    "venue": "IEEE Transactions on Automatic Control",
+    "type": "journal",
+    "note": "full paper",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TAC.2020.3019374"
+      }
+    ],
+    "details": "66(8): 3489–3501"
+  },
+  {
+    "id": "J8",
+    "title": "Selling Demand Response Using Options",
+    "authors": "D. Muthirayan, D. Kalathil, S. Li, K. Poolla, P. Varaiya",
+    "year": 2020,
+    "venue": "IEEE Transactions on Smart Grid",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TSG.2020.3011382"
+      }
+    ]
+  },
+  {
+    "id": "J7",
+    "title": "Transactive Energy Systems: The Market-Based Coordination of Distributed Energy Resources",
+    "authors": "S. Li, J. Lian, A. J. Conejo, and W. Zhang",
+    "year": 2020,
+    "venue": "IEEE Control Systems",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/MCS.2020.2990514"
+      }
+    ],
+    "details": "40(4): 26–52"
+  },
+  {
+    "id": "J6",
+    "title": "Regulating TNCs: Should Uber and Lyft Set Their Own Rules?",
+    "authors": "S. Li, H. Tavafoghi, K. Poolla and P. Varaiya",
+    "year": 2019,
+    "venue": "Transportation Research Part B: Methodological",
+    "type": "journal",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.trb.2019.09.008"
+      }
+    ],
+    "details": "129: 193–225"
+  },
+  {
+    "id": "J5",
+    "title": "Connections between Mean-Field Game and Social Welfare Optimization",
+    "authors": "S. Li, W. Zhang and L. Zhao",
+    "year": 2019,
+    "venue": "Automatica",
+    "type": "journal",
+    "note": "Regular Paper",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.automatica.2019.108590"
+      }
+    ]
+  },
+  {
+    "id": "J4",
+    "title": "Market-based Coordination of Thermostatically Controlled Loads-Part I: A Mechanism Design Formulation",
+    "authors": "S. Li, W. Zhang, J. Lian and K. Kalsi",
+    "year": 2015,
+    "venue": "IEEE Transactions on Power Systems",
+    "type": "journal",
+    "details": "31(2):1170–1178",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TPWRS.2015.2432057"
+      }
+    ]
+  },
+  {
+    "id": "J3",
+    "title": "Market-based Coordination of Thermostatically Controlled Loads-Part II: Unknown Parameters and Case Studies",
+    "authors": "S. Li, W. Zhang, J. Lian and K. Kalsi",
+    "year": 2015,
+    "venue": "IEEE Transactions on Power Systems",
+    "type": "journal",
+    "details": "31(2):1179–1187",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TPWRS.2015.2432060"
+      }
+    ]
+  },
+  {
+    "id": "J2",
+    "title": "Maximizing the Revenues of Data Centers in Regulation Market by Coordinating with Electric Vehicles",
+    "authors": "M. Brocanelli, S. Li, W. Zhang, and X. Wang",
+    "year": 2015,
+    "venue": "Sustainable Computing: informatics and Systems",
+    "type": "journal",
+    "details": "6: 26–38",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1016/j.suscom.2014.03.004"
+      }
+    ]
+  },
+  {
+    "id": "J1",
+    "title": "Integrated Power Management of Data Centers and Electric Vehicles for Energy and Regulation Market Participation",
+    "authors": "S. Li, M. Brocanelli, X. Wang, and W. Zhang",
+    "year": 2014,
+    "venue": "IEEE Transactions on Smart Grid",
+    "type": "journal",
+    "details": "5(5):2283–2294",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/TSG.2014.2321519"
+      }
+    ]
+  },
+  {
+    "id": "C32",
+    "title": "One Step is Enough: Multi-Agent Reinforcement Learning Based on One-Step Policy Optimization for Order Dispatch on Ride-Sharing Platforms",
+    "authors": "Z. Zhao and S. Li",
+    "year": 2026,
+    "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "type": "conference",
+    "note": "Accepted for NeurIPS 2026.",
+    "links": [
+      {
+        "label": "Author’s publication page",
+        "url": "https://zijianzhao.netlify.app/publication/ospo/"
+      },
+      {
+        "label": "Conference program",
+        "url": "https://neurips.cc/Downloads/2026"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2507.15351"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/RS2002/OSPO"
+      }
+    ]
+  },
+  {
+    "id": "C31",
+    "title": "Triple-BERT: Do We Really Need MARL for Order Dispatch on Ride-Sharing Platforms?",
+    "authors": "Z. Zhao and S. Li",
+    "year": 2026,
+    "venue": "International Conference on Learning Representations (ICLR)",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Proceedings",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f9a2243223a8d325008b642ea7a2c254-Abstract-Conference.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/RS2002/Triple-BERT"
+      }
+    ]
+  },
+  {
+    "id": "C30",
+    "title": "Task-Space Riccati Feedback based Whole Body Control for Underactuated Legged Locomotion",
+    "authors": "S. Yang, Z. Hong, S. Li, P. Wensing, W. Zhang, and H. Chen",
+    "year": 2024,
+    "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "type": "conference",
+    "details": "Abu Dhabi, United Arab Emirates · pp. 6826–6831",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/IROS58592.2024.10801528"
+      },
+      {
+        "label": "HKUST record",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/task-space-riccati-feedback-based-whole-body-control-for-underact/"
+      }
+    ]
+  },
+  {
+    "id": "C29",
+    "title": "OIRL: Real-time Optimization of Peak Shaving and Energy Arbitrage in Industrial Microgrids with Offline Inverse Reinforcement Learning Framework",
+    "authors": "Y. Hu and S. Li",
+    "year": 2026,
+    "venue": "IEEE PES International Meeting (PES IM)",
+    "type": "conference",
+    "details": "Hong Kong · Article 11438490",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/PESIM67009.2026.11438490"
+      },
+      {
+        "label": "HKUST record",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/oirl-real-time-optimization-of-peak-shaving-and-energy-arbitrage-/"
+      }
+    ]
+  },
+  {
+    "id": "C28",
+    "title": "Multi-Stage Multi-Agent Reinforcement Learning for On-Demand Food-Delivery Services with a Mixed Fleet of Human Couriers and Drones",
+    "authors": "Y. Hu, Y. Du, and S. Li",
+    "year": 2025,
+    "venue": "IEEE 28th International Conference on Intelligent Transportation Systems",
+    "type": "conference",
+    "details": "Gold Coast, Australia · pp. 734–739",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ITSC60802.2025.11423842"
+      }
+    ],
+    "note": "Presented in 2025. Proceedings published in 2026."
+  },
+  {
+    "id": "C27",
+    "title": "Multi-Agent Reinforcement Learning for Order Assignment and Payment Setting on Food-Delivery Platforms: The Implicit Algorithmic Biases",
+    "authors": "Z. Zhao and S. Li",
+    "year": 2025,
+    "venue": "International Symposium on Transportation Data & Modelling",
+    "type": "conference",
+    "details": "Montreal",
+    "links": [
+      {
+        "label": "Conference abstract",
+        "url": "https://zijianzhao.netlify.app/publication/pdf-conf/"
+      }
+    ]
+  },
+  {
+    "id": "C26",
+    "title": "Regulating Autonomous Ride-Hailing Services for an Equitable Multimodal Transportation Network",
+    "authors": "J. Gao and S. Li",
+    "year": 2025,
+    "venue": "12th Triennial Symposium on Transportation Analysis conference (TRISTAN XII)",
+    "type": "conference",
+    "details": "Okinawa",
+    "links": [
+      {
+        "label": "Conference abstract",
+        "url": "https://tristan2025.org/proceedings/TRISTAN2025_ExtendedAbstract_487.pdf"
+      }
+    ]
+  },
+  {
+    "id": "C25",
+    "title": "Integrating Valet Charging with Mobile Discharging Services: A Strengthened Integer L-Shaped Method",
+    "authors": "Z. Lai and S. Li",
+    "year": 2025,
+    "venue": "INFORMS International Meeting",
+    "type": "conference",
+    "details": "Singapore"
+  },
+  {
+    "id": "C24",
+    "title": "Neural-Network Aided Optimization for On-Demand Food-Delivery Services with a Mixed Fleet of Drones and Human",
+    "authors": "Y. Liu and S. Li",
+    "year": 2025,
+    "venue": "12th INFORMS Transportation Science and Logistics Society Workshop",
+    "type": "conference",
+    "details": "Seoul",
+    "links": [
+      {
+        "label": "Conference program",
+        "url": "https://tsl2025kaist.github.io/program/"
+      }
+    ]
+  },
+  {
+    "id": "C23",
+    "title": "RG-CQL: A Reward-Guided Conservative Q-Learning Framework for the Coordination of Ride-Pooling and Public Transit Services",
+    "authors": "Y. Hu and S. Li",
+    "year": 2025,
+    "venue": "13th Symposium of the European Association for Research in Transportation",
+    "type": "conference",
+    "details": "Munich",
+    "links": [
+      {
+        "label": "Recorded presentation",
+        "url": "https://doi.org/10.5446/71523"
+      }
+    ]
+  },
+  {
+    "id": "C22",
+    "title": "Piggyback on Idle Ride-Hailing Drivers for Integrated On-Demand and Flexible Parcel Delivery Services",
+    "authors": "Y. Liu and S. Li",
+    "year": 2024,
+    "venue": "Conference in Emerging Technologies in Transportation Systems (TRC-30)",
+    "type": "conference",
+    "details": "Crete",
+    "links": [
+      {
+        "label": "Conference abstract",
+        "url": "https://trc-30.epfl.ch/wp-content/uploads/2024/09/TRC-30_paper_28.pdf"
+      }
+    ]
+  },
+  {
+    "id": "C21",
+    "title": "“Transferred bias” uncovers the balance between the development of physical and socio-economic environments of cities",
+    "authors": "C. Hou, Y. Kang, F. Zhang, S. Gao, Y. Li, F. Duarte and S. Li",
+    "year": 2024,
+    "venue": "28th International Conference of Hong Kong Society for Transportation Studies",
+    "type": "conference",
+    "details": "Hong Kong"
+  },
+  {
+    "id": "C20",
+    "title": "Real-Time Collision-Free Motion Planning and Control for Mobile Manipulation with Quadrupeds",
+    "authors": "Z. Cao, H. Chen, S. Li, and W. Zhang",
+    "year": 2023,
+    "venue": "IEEE International Conference on Robotics and Biomimetics",
+    "type": "conference",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ROBIO58561.2023.10354901"
+      }
+    ]
+  },
+  {
+    "id": "C19",
+    "title": "Pricing Autonomous Mobility-on-Demand Services Considering Fleet Dynamics and Transportation Networks",
+    "authors": "Z. Lai, S. Li",
+    "year": 2022,
+    "venue": "26th International Conference of Hong Kong Society for Transportation Studies",
+    "type": "conference"
+  },
+  {
+    "id": "C18",
+    "title": "Infrastructure Planning for Electrified Autonomous Mobility-on-Demand Systems under Evolving Charging Technologies",
+    "authors": "J. Gao, S. Li",
+    "year": 2022,
+    "venue": "26th International Conference of Hong Kong Society for Transportation Studies",
+    "type": "conference"
+  },
+  {
+    "id": "C17",
+    "title": "Managing On-Demand Food-Delivery Platforms in a Regulated Market",
+    "authors": "Y. Liu, S. Li",
+    "year": 2022,
+    "venue": "26th International Conference of Hong Kong Society for Transportation Studies",
+    "type": "conference"
+  },
+  {
+    "id": "C16",
+    "title": "Physics-Informed Neural Network Model for Transient Wave Propagation in a Pressurized Pipeline",
+    "authors": "M. Waqar, M. Louati, S. Li, and M. S. Ghidaoui",
+    "year": 2022,
+    "venue": "Proceedings of the 39th IAHR World Congress",
+    "type": "conference",
+    "links": [
+      {
+        "label": "Conference paper",
+        "url": "https://www.iahr.org/library/infor?pid=20934"
+      }
+    ]
+  },
+  {
+    "id": "C15",
+    "title": "Charging Electric Vehicles with Valet: A Novel Business Model to Promote Transport Electrification",
+    "authors": "Z. Lai, S. Li",
+    "year": 2021,
+    "venue": "IEEE Conference on Decision and Control",
+    "type": "conference",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/CDC45484.2021.9683610"
+      }
+    ]
+  },
+  {
+    "id": "C14",
+    "title": "Off-street Parking for TNC Vehicles to Reduce Cruising Traffic",
+    "authors": "S. Li, J. Qin, Y. Hai, K. Poolla, and P. Varaiya",
+    "year": 2020,
+    "venue": "IEEE Conference on Decision and Control",
+    "type": "conference",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/CDC42340.2020.9304277"
+      }
+    ]
+  },
+  {
+    "id": "C13",
+    "title": "Impact of Driver Classification Regulations on Transportation Network Companies",
+    "authors": "A. Shetty, S. Li, H. Tavafoghi, J. Qin, K. Poolla, and P. Varaiya",
+    "year": 2020,
+    "venue": "IEEE International Conference on Intelligent Transportation Systems",
+    "type": "conference",
+    "note": "Best Student Paper Award",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ITSC45102.2020.9294693"
+      }
+    ]
+  },
+  {
+    "id": "C12",
+    "title": "Congestion Surcharge and Wage Regulation on Transportation Network Companies with Congestion Externalities",
+    "authors": "S. Li, A. Shetty, K. Poolla, and P. Varaiya",
+    "year": 2019,
+    "venue": "24th International Conference of Hong Kong Society for Transportation Studies",
+    "type": "conference"
+  },
+  {
+    "id": "C11",
+    "title": "Data-Driven Capacity Bidding for Frequency Regulation",
+    "authors": "S. Li, J. Qin, A. Shetty, K. Poolla, and P. Varaiya",
+    "year": 2019,
+    "venue": "American Control Conference",
+    "type": "conference",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.23919/ACC.2019.8815383"
+      }
+    ],
+    "details": "pp. 3901–3908"
+  },
+  {
+    "id": "C10",
+    "title": "Distributed Storage Investment in Power Networks",
+    "authors": "J. Qin, S. Li, K. Poolla, and P. Varaiya",
+    "year": 2019,
+    "venue": "American Control Conference",
+    "type": "conference",
+    "note": "O. Hugo Shuck Best Paper Award",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.23919/ACC.2019.8814777"
+      }
+    ]
+  },
+  {
+    "id": "C9",
+    "title": "Optimization Perspectives of Mean-Field Games",
+    "authors": "S. Li, and W. Zhang",
+    "year": 2018,
+    "venue": "Mathematical Theory on Networked Systems",
+    "type": "conference",
+    "details": "Hong Kong",
+    "links": [
+      {
+        "label": "Conference paper",
+        "url": "https://mtns2018.hkust.edu.hk/media/files/0020.pdf"
+      }
+    ]
+  },
+  {
+    "id": "C8",
+    "title": "Optimal Energy Reserve Procurement",
+    "authors": "A. Shetty, S. Li, K. Poolla, and P. Varaiya",
+    "year": 2018,
+    "venue": "European Control Conference",
+    "type": "conference",
+    "note": "A. Shetty and S. Li contributed equally. Best Student Paper Award finalist.",
+    "details": "Limassol, Cyprus",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.23919/ECC.2018.8550490"
+      }
+    ]
+  },
+  {
+    "id": "C7",
+    "title": "Social Optima in Non-cooperative Mean Field Games",
+    "authors": "S. Li, W. Zhang, J. Lian and K. Kalsi",
+    "year": 2016,
+    "venue": "IEEE Conference on Decision and Control",
+    "type": "conference",
+    "details": "Las Vegas, USA",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/CDC.2016.7798808"
+      }
+    ]
+  },
+  {
+    "id": "C6",
+    "title": "On Reverse Stackelberg Game and Mean Field Control for a Large Population of Thermostatically Controlled Loads",
+    "authors": "S. Li, W. Zhang, J. Lian and K. Kalsi",
+    "year": 2016,
+    "venue": "American Control Conference",
+    "type": "conference",
+    "details": "Boston, USA",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ACC.2016.7525463"
+      }
+    ]
+  },
+  {
+    "id": "C5",
+    "title": "On Market-based Coordination of Thermostatically Controlled Loads with User Preference",
+    "authors": "S. Li, W. Zhang, J. Lian and K. Kalsi",
+    "year": 2014,
+    "venue": "IEEE Conference on Decision and Control",
+    "type": "conference",
+    "details": "Los Angeles, California",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/CDC.2014.7039766"
+      }
+    ]
+  },
+  {
+    "id": "C4",
+    "title": "Planning and Control of Electric Vehicles Using Dynamic Energy Capacity Models",
+    "authors": "J. Liu, S. Li, J. Mathieu, and G. Rizzoni",
+    "year": 2013,
+    "venue": "IEEE Conference on Decision and Control",
+    "type": "conference",
+    "details": "Florence, Italy",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/CDC.2013.6759911"
+      }
+    ]
+  },
+  {
+    "id": "C3",
+    "title": "Joint Management of Data Centers and Electric Vehicles for Maximized Regulation Profits",
+    "authors": "M. Brocanelli, S. Li, X. Wang, and W. Zhang",
+    "year": 2013,
+    "venue": "4th IEEE International Green Computing Conference",
+    "type": "conference",
+    "details": "Arlington, Virginia",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/IGCC.2013.6604496"
+      }
+    ]
+  },
+  {
+    "id": "C2",
+    "title": "Data Center Power Control for Frequency Regulation",
+    "authors": "S. Li, M. Brocanelli, W. Zhang, and X. Wang",
+    "year": 2013,
+    "venue": "IEEE PES General Meeting",
+    "type": "conference",
+    "details": "Vancouver, Canada",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/PESMG.2013.6672933"
+      }
+    ]
+  },
+  {
+    "id": "C1",
+    "title": "Range-based Target Localization Using a Single Mobile Robot or Multiple Cooperative Mobile Robots",
+    "authors": "X. Zhang, S. Li, Z. Lin, and H. Wang",
+    "year": 2013,
+    "venue": "IEEE International Conference on Control and Automation",
+    "type": "conference",
+    "details": "Hangzhou, China",
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1109/ICCA.2013.6565116"
+      }
+    ]
+  },
+  {
+    "id": "P2",
+    "title": "Coordination of Thermostatically Controlled Loads with Unknown Parameters",
+    "authors": "Jianming Lian, Karanjit Kalsi, Sen Li, and Wei Zhang",
+    "year": 2016,
+    "venue": "U.S. patent application",
+    "type": "patent",
+    "details": "14/866,457 · US20160092986A1",
+    "links": [
+      {
+        "label": "Patent application",
+        "url": "https://patents.google.com/patent/US20160092986A1/en"
+      }
+    ]
+  },
+  {
+    "id": "P1",
+    "title": "Coordination of Thermostatically Controlled Loads",
+    "authors": "Jianming Lian, Karanjit Kalsi, Sen Li, and Wei Zhang",
+    "year": 2016,
+    "venue": "U.S. patent application",
+    "type": "patent",
+    "details": "14/866,404 · US20160092978A1",
+    "links": [
+      {
+        "label": "Patent application",
+        "url": "https://patents.google.com/patent/US20160092978A1/en"
+      }
+    ]
+  }
+]

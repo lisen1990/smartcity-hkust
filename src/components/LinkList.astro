@@ -1,0 +1,10 @@
+---
+import type { Link } from '../lib/site';
+interface Props { links?: Link[] }
+const { links = [] } = Astro.props;
+---
+{links.length > 0 && (
+  <ul class="text-links" role="list">
+    {links.map(({ label, url }) => <li><a href={url}>{label}</a></li>)}
+  </ul>
+)}

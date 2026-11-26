@@ -1,0 +1,25 @@
+---
+import { sitePath } from '../lib/site';
+import research from '../data/research.json';
+export function getStaticPaths() {
+  const study = research.projects.find((project) => 'detail' in project);
+  return [
+    ['projects-3', 'research/'],
+    ['team-4', 'people/'],
+    ['contact-me', 'join-us/'],
+    ['single-project', study ? `research/${study.slug}/` : 'research/'],
+  ].map(([legacy, path]) => ({ params: { legacy }, props: { path } }));
+}
+const target = sitePath(Astro.props.path);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <title>Page moved · Smart City Research Group</title>
+  </head>
+  <body><p>This page has moved. <a href={target}>Continue to the new page</a>.</p></body>
+</html>

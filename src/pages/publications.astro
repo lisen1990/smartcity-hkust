@@ -1,0 +1,47 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import LinkList from '../components/LinkList.astro';
+import { sitePath } from '../lib/site';
+import { journalPublications, conferencePublications, patentPublications } from '../lib/research';
+
+const groups = [
+  { id: 'journal-publications', title: 'Journal publications', papers: journalPublications },
+  { id: 'conference-publications', title: 'Conference publications', papers: conferencePublications },
+];
+---
+<SiteLayout title="Publications" active="Publications" description="Journal articles and conference papers from the Smart City Research Group at HKUST.">
+  <div class="page-intro">
+    <h1>Publications</h1>
+    <nav class="publication-jump-links" aria-label="Publication categories">
+      <a href="#journal-publications">Journal publications ({journalPublications.length})</a>
+      <span aria-hidden="true"> · </span>
+      <a href="#conference-publications">Conference publications ({conferencePublications.length})</a>
+    </nav>
+  </div>
+  <div>
+    {groups.map(({ id, title, papers }) => (
+      <section id={id} class="publication-group" aria-labelledby={`${id}-heading`}>
+        <h2 id={`${id}-heading`}>{title}</h2>
+        <ol class="paper-list" reversed start={papers.length}>
+          {papers.map((paper) => (
+            <li id={paper.id} class="paper">
+              <h3>{paper.title}</h3>
+              <p class="paper-citation">
+                <span class="authors">{paper.authors}</span>
+                {' · '}
+                <span class="venue"><cite>{paper.venue}</cite>{paper.details && <> · {paper.details}</>}</span>
+                {' · '}{paper.year}
+              </p>
+              {paper.note && <p class="paper-note">{paper.note}</p>}
+              <LinkList links={paper.links} />
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+    <p class="publication-patents">
+      {patentPublications.map(({ id }) => <span id={id}></span>)}
+      <a href={sitePath('profile/#patents')}>Patent applications</a>
+    </p>
+  </div>
+</SiteLayout>

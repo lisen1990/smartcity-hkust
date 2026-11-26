@@ -1,0 +1,100 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PageIntro from '../../components/PageIntro.astro';
+import { sitePath } from '../../lib/site';
+import research from '../../data/research.json';
+---
+<SiteLayout title="Research" active="Research" description={research.intro}>
+  <div class="research-reading">
+    <PageIntro heading="Research" description={research.intro} />
+
+    <section class="research-methods" id="methods" aria-labelledby="research-methods-heading">
+      {research.methodLegacyAnchors.map((anchor) => <span id={anchor} class="legacy-anchor" aria-hidden="true"></span>)}
+      <h2 id="research-methods-heading">Theory and methods</h2>
+      <ul class="method-list">
+        {research.methods.map((method) => <li>{method}</li>)}
+      </ul>
+      <div class="research-prose">
+        {research.methodsParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+    </section>
+
+    <div class="research-applications" id="applications">
+      {research.applicationLegacyAnchors.map((anchor) => <span id={anchor} class="legacy-anchor" aria-hidden="true"></span>)}
+      {research.areas.map((area) => (
+        <section class="research-application" id={area.slug} aria-labelledby={`${area.slug}-heading`}>
+          {area.legacyAnchors.map((anchor) => <span id={anchor} class="legacy-anchor" aria-hidden="true"></span>)}
+          <h2 id={`${area.slug}-heading`}>{area.title}</h2>
+          <div class="research-prose">
+            {area.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+          </div>
+          <figure>
+            <img src={sitePath(area.image)} alt={area.imageAlt} width={area.imageWidth} height={area.imageHeight} loading="lazy" decoding="async" />
+            <figcaption>Image source <a href={area.credit.url}>{area.credit.label}</a></figcaption>
+          </figure>
+        </section>
+      ))}
+    </div>
+  </div>
+</SiteLayout>
+
+<style>
+  .research-reading {
+    max-width: 82ch;
+    margin-inline: auto;
+  }
+
+  .research-methods,
+  .research-applications,
+  .research-application {
+    position: relative;
+  }
+
+  .research-methods {
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .research-prose p {
+    line-height: 1.75;
+  }
+
+  .research-prose p + p {
+    margin-top: 1rem;
+  }
+
+  .legacy-anchor {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .method-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem 1.8rem;
+    margin: .6rem 0 1rem;
+    padding-inline-start: 1.15rem;
+  }
+
+  .research-application {
+    padding-block: 2rem;
+  }
+
+  .research-application + .research-application {
+    border-top: 1px solid var(--line);
+  }
+
+  .research-application figure {
+    max-width: 520px;
+    margin: 1.25rem auto 0;
+  }
+
+  .research-application img {
+    width: 100%;
+  }
+
+</style>

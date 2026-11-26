@@ -1,0 +1,52 @@
+---
+import '../styles/site.css';
+import { email, navigation, siteName, sitePath, university } from '../lib/site';
+interface Props {
+  title?: string;
+  description: string;
+  active?: string;
+  image?: string;
+  noindex?: boolean;
+}
+const { title, description, active, image, noindex = false } = Astro.props;
+const pageTitle = title ? `${title} | Sen Li · HKUST` : `Sen Li | ${siteName} · HKUST`;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+    {canonical && <link rel="canonical" href={canonical} />}
+    {(noindex || import.meta.env.PUBLIC_NOINDEX === '1') && <meta name="robots" content="noindex" />}
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {canonical && <meta property="og:url" content={canonical} />}
+    {image && Astro.site && <meta property="og:image" content={new URL(sitePath(image), Astro.site)} />}
+    <link rel="icon" type="image/png" href={sitePath('favicon.png')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={sitePath()}><span>HKUST</span> {siteName}</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          {navigation.map(({ label, path }) => (
+            <a href={sitePath(path)} aria-current={active === label ? 'page' : undefined}>{label === 'Home' ? 'About' : label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main id="content" class:list={['wrap', 'page-layout', active !== 'Home' && active !== 'Research' && 'reading-layout']} tabindex="-1"><slot /></main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div><p>{siteName}</p><p><a href="https://hkust.edu.hk/">{university}</a></p><p class="footer-links"><a href={sitePath('news/')}>Group news</a><a href={sitePath('profile/')}>Academic profile</a><a href={`mailto:${email}`}>Contact</a></p></div>
+        <img src={sitePath('images/hkust.webp')} alt="HKUST" width="216" height="120" loading="lazy" />
+      </div>
+    </footer>
+  </body>
+</html>

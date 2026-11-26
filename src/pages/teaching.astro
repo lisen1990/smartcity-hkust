@@ -1,0 +1,18 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import LinkList from '../components/LinkList.astro';
+import profile from '../data/academic-profile.json';
+---
+<SiteLayout title="Teaching" active="Teaching" description="Selected courses taught by Sen Li at HKUST on traffic engineering, smart city economics, multi-agent decisions, and transportation networks.">
+  <header class="page-intro"><h1>Teaching</h1><p class="lead">Selected courses I have taught at HKUST.</p></header>
+  <div class="course-list">
+    {profile.teaching.map((course) => <article class="course">
+      <p class="course-code">{course.code}</p>
+      <div><h2>{course.title}</h2>
+        {course.period && <p class="course-term">{course.period}</p>}
+        <p>{course.description}</p>
+        <LinkList links={course.links} />
+      </div>
+    </article>)}
+  </div>
+</SiteLayout>
