@@ -1,0 +1,19 @@
+{
+  "name": "smartcity-hkust",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node scripts/verify-build.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.12"
+  }
+}
